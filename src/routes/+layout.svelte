@@ -53,6 +53,7 @@
 	@media (min-width: 480px) {
 		footer {
 			padding: 40px 0;
+			color: navy;
 		}
 	}
 </style>
