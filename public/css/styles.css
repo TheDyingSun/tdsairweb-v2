@@ -16,11 +16,10 @@ body{
 header {
 	position: sticky;
 	z-index: 90;
-	width: 100%;
+	width: auto;
 	top: 0px;
 	left: 0px;
 	margin: 0px;
-	padding: 0;
 	height: 50px;
 	background: linear-gradient(270deg,rgba(180, 250, 255, 1) 0%, rgba(39, 96, 147, 1) 25%, rgba(208, 84, 121, 1) 59%, rgba(255, 179, 186, 1) 98%);
 	background: linear-gradient(90deg,rgba(230, 64, 205, 1) 0%, rgba(152, 29, 253, 1) 29%, rgba(38, 74, 201, 1) 56%, rgba(69, 252, 246, 1) 100%);
@@ -41,8 +40,8 @@ header {
 }
 
 .headerbuttons {
+	margin: 0;
 	display: flex;
-	width: auto;
 	justify-content: space-around;
 	margin: 15px;
 

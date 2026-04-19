@@ -1,9 +1,10 @@
 {
-  "version": 2,
-  "builds": [
+  "routes" : [
     {
-      "src": ["*/*","*/*/*"],
-      "use": "@vercel/static"
-    }
+      "src": "/.*", "dest" : "public/index.html"
+    },
+    {
+      "src": "ricksdiner", "dest" : "public/indericksdiner.html"
+    } 
   ]
 }
