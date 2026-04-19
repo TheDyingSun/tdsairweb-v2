@@ -9,21 +9,23 @@ body{
 	margin: 0px;
 	padding: 0%;
 	height: auto;
-	background-color: gray;
+	background-color: #32204C;
 
 }
 
 header {
 	position: sticky;
+	z-index: 90;
 	width: 100%;
 	top: 0px;
 	left: 0px;
 	margin: 0px;
 	padding: 0;
 	height: 50px;
-	background: teal;
+	background: linear-gradient(270deg,rgba(180, 250, 255, 1) 0%, rgba(39, 96, 147, 1) 25%, rgba(208, 84, 121, 1) 59%, rgba(255, 179, 186, 1) 98%);
 
 	padding: 10px;
+	display: none;
 	
 }
 
@@ -53,19 +55,19 @@ header {
 .homecardBG{
 	background-color: blueviolet;
 	
-	background-image: url("\\images\\05302023_003_Scaled.jpg");
+	background-image: url("..\\images\\06102024_SCALED.png");
 	background-position: center;
 	background-position-y: 15%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 10%;
+	min-height: 300px;
 	
 }
 
 .card{
 	
-	background-color :teal;
-	opacity: 100%;
+	background-color: #32204C;
 	margin: 20px;
 	padding: 20px;
 	border-radius: 10px;
@@ -79,4 +81,20 @@ header {
 
 .furtherInformation{
 	background-color: aqua;
+}
+
+.columns{
+	display: flex;
+	width: auto;
+	justify-content:space-evenly;
+	margin: 15px;
+	margin: 0;
+	padding: 0;
+
+}
+
+.column{
+
+	padding: 20px;
+	
 }
