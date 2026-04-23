@@ -6,8 +6,10 @@
 }
 
 html{
-	height: 100%;
+	height: auto;
+	background-color: teal;
 }
+
 
 body{
 	margin: 0px;
@@ -84,4 +86,11 @@ header {
 
 .furtherInformation{
 	background-color: aqua;
+}
+
+.comicpanel{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+
 }
